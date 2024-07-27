@@ -1,0 +1,26 @@
+.memory-game-box {
+      display: flex;
+      flex-wrap:wrap;
+      width:320px;
+}
+
+.memory-game-div {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      background-color: gray;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+}
+
+.memory-game-img {
+      width:100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.memory-game-div.flipped,
+.memory-game-div.matched {
+  background-color: transparent; /* Color for flipped or matched cards */
+}
